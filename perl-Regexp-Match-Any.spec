@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Match-Any
+%define		pdir	Regexp
+%define		pnam	Match-Any
 Summary:	Regexp::Match::Any Perl module - match many regexes against a variable
 Summary(pl):	Modu³ Perla Regexp::Match::Any - dopasowanie wielu wyra¿eñ regularnych do zmiennej
 Name:		perl-Regexp-Match-Any
