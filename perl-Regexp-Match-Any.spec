@@ -32,7 +32,7 @@ modu³ mo¿e byæ przydatny szczególnie do u¿ywania z Mail::Audit.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
