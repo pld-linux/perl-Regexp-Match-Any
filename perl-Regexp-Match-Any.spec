@@ -30,7 +30,7 @@ modu³ mo¿e byæ przydatny szczególnie do u¿ywania z Mail::Audit.
 %setup -q -n %{pnam}_%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
