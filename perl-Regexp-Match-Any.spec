@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Match-Any
-Summary:	Regexp::Match::Any perl module - Match many regexes against a variable
-Summary(pl):	Modu³ perla Regexp::Match::Any - dopasowuj±cy wiele wyra¿eñ regularnych do zmiennej
+Summary:	Regexp::Match::Any Perl module - match many regexes against a variable
+Summary(pl):	Modu³ Perla Regexp::Match::Any - dopasowanie wielu wyra¿eñ regularnych do zmiennej
 Name:		perl-Regexp-Match-Any
 Version:	0.03
 Release:	2
