@@ -5,12 +5,12 @@ Summary:	Regexp::Match::Any perl module - Match many regexes against a variable
 Summary(pl):	Modu³ perla Regexp::Match::Any - dopasowuj±cy wiele wyra¿eñ regularnych do zmiennej
 Name:		perl-Regexp-Match-Any
 Version:	0.03
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}_%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,7 +30,8 @@ modu³ mo¿e byæ przydatny szczególnie do u¿ywania z Mail::Audit.
 %setup -q -n %{pnam}_%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -45,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Readme
-%{perl_sitelib}/Regexp/Match
+%{perl_vendorlib}/Regexp/Match
 %{_mandir}/man3/*
