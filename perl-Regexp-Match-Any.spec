@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Match-Any
 Summary:	Regexp::Match::Any Perl module - match many regexes against a variable
-Summary(pl):	Modu≥ Perla Regexp::Match::Any - dopasowanie wielu wyraøeÒ regularnych do zmiennej
+Summary(pl.UTF-8):   Modu≈Ç Perla Regexp::Match::Any - dopasowanie wielu wyra≈ºe≈Ñ regularnych do zmiennej
 Name:		perl-Regexp-Match-Any
 Version:	0.03
 Release:	3
@@ -25,11 +25,11 @@ an array of regexes which will then return a full regex for the the
 variable to be matched against. Note: this module may be very handy
 for use with Mail::Audit.
 
-%description -l pl
-Ten podu≥ pozwala na przekazanie funkcji match_any() odwo≥ania do
-tablicy wyraøeÒ regularnych, na podstawie ktÛrych funkcja zwraca pe≥ne
-wyraøenie regularne dla zmiennej, ktÛra mia≥a byÊ dopasowana. Ten
-modu≥ moøe byÊ przydatny szczegÛlnie do uøywania z Mail::Audit.
+%description -l pl.UTF-8
+Ten podu≈Ç pozwala na przekazanie funkcji match_any() odwo≈Çania do
+tablicy wyra≈ºe≈Ñ regularnych, na podstawie kt√≥rych funkcja zwraca pe≈Çne
+wyra≈ºenie regularne dla zmiennej, kt√≥ra mia≈Ça byƒá dopasowana. Ten
+modu≈Ç mo≈ºe byƒá przydatny szczeg√≥lnie do u≈ºywania z Mail::Audit.
 
 %prep
 %setup -q -n %{pnam}_%{version}
