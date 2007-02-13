@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Match-Any
 Summary:	Regexp::Match::Any Perl module - match many regexes against a variable
-Summary(pl.UTF-8):   Moduł Perla Regexp::Match::Any - dopasowanie wielu wyrażeń regularnych do zmiennej
+Summary(pl.UTF-8):	Moduł Perla Regexp::Match::Any - dopasowanie wielu wyrażeń regularnych do zmiennej
 Name:		perl-Regexp-Match-Any
 Version:	0.03
 Release:	3
