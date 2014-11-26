@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Regexp
 %define		pnam	Match-Any
+%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Match::Any Perl module - match many regexes against a variable
 Summary(pl.UTF-8):	Moduł Perla Regexp::Match::Any - dopasowanie wielu wyrażeń regularnych do zmiennej
 Name:		perl-Regexp-Match-Any
@@ -14,6 +14,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}_%{version}.tar.gz
 # Source0-md5:	f9baccc05916ac0a0c1cf1853579311a
+URL:		http://search.cpan.org/dist/Regexp-Match-Any/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
